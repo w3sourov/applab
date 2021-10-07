@@ -1,0 +1,188 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .section-title{
+    font-size: 35px;
+  }
+  .features-right{
+    margin: 0 auto !important;
+  }
+  .features{
+    margin-top: 80px;
+  }
+  .features-2{
+    margin-top: 70px;
+  }
+  .choose{
+    margin-top: 70px;
+  }
+  .ultimate-feature{
+    margin-top: 100px;
+  }
+  .pricing{
+    margin-top: 80px;
+  }
+  .testimonial{
+    margin-top: 90px;
+  }
+  .question{
+    margin-top: 80px;
+  }
+  .download{
+    margin-top: 100px;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .section-title{
+    font-size: 40px;
+  }
+  .features-right{
+    margin: 0 auto !important;
+  }
+  .features{
+    margin-top: 100px;
+  }
+  .features-2{
+    margin-top: 80px;
+  }
+  .choose{
+    margin-top: 90px;
+  }
+  .ultimate-feature{
+    margin-top: 130px;
+  }
+  .pricing{
+    margin-top: 100px;
+  }
+  .testimonial{
+    margin-top: 110px;
+  }
+  .question{
+    margin-top: 100px;
+  }
+  .download{
+    margin-top: 110px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .features{
+    margin-top: 130px;
+  }
+  .features-2{
+    margin-top: 100px;
+  }
+  .choose{
+    margin-top: 100px;
+  }
+  .ultimate-feature{
+    margin-top: 150px;
+  }
+  .pricing{
+    margin-top: 130px;
+  }
+  .testimonial{
+    margin-top: 120px;
+  }
+  .question{
+    margin-top: 100px;
+  }
+  .download{
+    margin-top: 125px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .common-blue-btn {
+    display: block !important;
+  }
+  /* smart-jackpot section start  */
+  .smart-jackpot-sec {
+    border-right: 1px solid gray;
+  }
+  /* smart-jackpot section end  */
+  .features{
+    margin-top: 200px;
+  }
+  .features{
+    margin-top: 150px;
+  }
+  .features-2{
+    margin-top: 120px;
+  }
+  .choose{
+    margin-top: 130px;
+  }
+  .ultimate-feature{
+    margin-top: 165px;
+  }
+  .pricing{
+    margin-top: 150px;
+  }
+  .testimonial{
+    margin-top: 150px;
+  }
+  .question{
+    margin-top: 130px;
+  }
+  .download{
+    margin-top: 140px;
+  }
+}
+
+/* Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* smart-jackpot section start  */
+  .smart-jackpot-sec {
+    border-right: 1px solid gray;
+  }
+  .smart-jackpot-sec-2{
+    padding-left: 50px;
+  }
+  /* smart-jackpot section end  */
+  /* vector smart object content  */
+  .vector-smart-object-content{
+    padding-left: 50px;
+  }
+  /* vector smart object content  */
+  .features-2{
+    margin-top: 140px;
+  }
+  .choose{
+    margin-top: 150px;
+  }
+  .testimonial{
+    margin-top: 150px;
+  }
+  .footer{
+    margin-top: -45px;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+  /* smart-jackpot section start  */
+  .smart-jackpot-sec {
+    border-right: 1px solid gray;
+  }
+  .smart-jackpot-sec-2{
+    padding-left: 50px;
+  }
+  /* smart-jackpot section end  */
+  /* vector smart object content  */
+  .vector-smart-object-content{
+    padding-left: 50px;
+  }
+  /* vector smart object content  */
+  .choose{
+    margin-top: 160px;
+  }
+  .footer{
+    margin-top: -43px;
+  }
+}

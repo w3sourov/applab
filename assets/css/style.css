@@ -1,0 +1,252 @@
+/* fonts section  */
+@import url(import.css);
+/* fonts section */
+
+/* import fontawesome */
+@import url(../fontawesome/all.min.css);
+/* import fontawesome */
+
+/* --------Global classes start--------- */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: var(--pop-reg);
+  font-size: 17px;
+}
+:root {
+  /* fonts */
+  --pop-bold: Poppins-Bold;
+  --pop-med: Poppins-Medium;
+  --pop-reg: Poppins-Regular;
+  --pop-semibold: Poppins-SemiBold;
+  /* fonts end  */
+}
+.pop-reg{
+    font-family: var(--pop-reg);
+}
+.pop-semibold{
+  font-family: var(--pop-semibold);
+}
+.pop-bold{
+  font-family: var(--pop-bold);
+}
+.pop-med{
+  font-family: var(--pop-med);
+}
+.common-blue-btn {
+  padding: 20px 40px;
+  color: #ffff;
+  background: #00b2f9;
+  font-weight: bold;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+.common-blue-btn {
+    background-image: -webkit-linear-gradient(30deg, #2500f9 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #2500f9 50%, transparent 50%);
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .common-blue-btn:hover {
+    background-position: 100%;
+    color: white;
+  }
+  .section-title{
+    font-size: 40px;
+    font-weight: bold;
+  }
+/* --------Global classes end--------- */
+
+/* -------Header section start------- */
+.header {
+  padding-top: 60px;
+}
+.c-menu ul li {
+  margin: 15px;
+}
+
+.c-menu ul li a:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+.c-menu ul li a::after {
+  content: "";
+  display: block;
+  background: #154ab9;
+  height: 2px;
+  width: 100%;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.2s ease-in;
+}
+
+
+/* -------Header section end------- */
+
+/* ------Banner section start------- */
+.banner {
+  background-image: url(../image/banner.png);
+}
+.banner-hex {
+  font-family: var(--pop-reg);
+  font-size: 16px;
+  font-weight: 300;
+  background: #e2eaed;
+}
+.banner-title {
+  font-family: var(--pop-bold);
+
+}
+.banner-subtitle {
+  font-family: var(--pop-reg);
+  font-size: 18px;
+}
+.watch-demo {
+  font-weight: 700;
+  text-decoration: none;
+}
+/* ------Banner section end------- */
+
+/* -------features section start-------- */
+.features{
+  margin-top: 200px;
+}
+.prototyping h4{
+  color:#2563ff;
+}
+.vector h4{
+  color: #40975f;
+}
+/* -------features section end-------- */
+/* --------smart-jackpot section start --------- */
+.smart-jackpot{
+  margin-top: 150px;
+}
+.smart-jackpot-sec-2 p{
+  font-size: 17px;
+}
+
+/* --------smart-jackpot section end --------- */
+
+/* ---------features2 section start ----------- */
+.features-2{
+  margin-top: 150px;
+}
+.payouts h4{
+  color: #f55767;
+}
+.network h4{
+  color: #2563ff;
+}
+.method h4{
+  color: #40975f;
+}
+.payouts p, .network p, .method p{
+  font-size: 17px;
+}
+/* ---------features2 section end ----------- */
+
+/* ----------Choose us section start ------------ */
+.choose-icon-box{
+  margin-bottom: 50px;
+}
+/* ----------Choose us section end ------------ */
+/* ----------ultimate feature section start ------------ */
+.ultimate-feature{
+  margin-top: 180px;
+  margin: 0 20px;
+}
+/* ----------ultimate feature section end ------------ */
+
+/* ---------pricing section start ---------- */
+.pricing{
+  margin-top: 180px;
+}
+.pricing-option{
+  outline: 2px solid gray;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.monthly{
+  border: 1pd solid white;
+  color: white;
+  background: #2500f9;
+  border-radius: 50px;
+  padding: 10px 22px;
+}
+.annually{
+  padding: 10px 22px;
+  border-radius: 50px;
+}
+.annually:hover{
+  background: #b4afcf;
+  color: white;
+  transition: 0.5s;
+}
+.pricing-area{
+  background: linear-gradient(to top, rgba(224, 239, 241, 0.61), rgba(247, 251, 252, 0.61));
+}
+/* ---------pricing section end ---------- */
+
+/* -----------testimonial section start------------  */
+.testimonial{
+  margin-top: 150px;
+  margin: 0 20px;
+}
+.ratting .fa-star{
+  color: rgb(189, 189, 15);
+}
+/* -----------testimonial section end------------  */
+
+/* -----------question section start ------------- */
+.question{
+  margin-top: 150px;
+}
+.c-accordion-item{
+  background: #f5f7fa !important;
+  border: 0;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.c-accordion-item button:focus{
+  border: none;
+  box-shadow: none !important;
+}
+.c-accordion-item button{
+  background: #f5f7fa !important;
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url(../image/nothing.png) !important;
+}
+.accordion-button::after{
+  background-image: url(../image/plus.png) !important;
+}
+/* -----------question section end ------------- */
+
+/* -----------download section start-----------  */
+.download{
+  margin-top: 150px;
+  margin: 0 20px;
+}
+/* -----------download section end-----------  */
+/* ----------footer section start----------  */
+.footer{
+  background: #09142e;
+}
+.footer-icon{
+  color: rgb(141, 134, 134);
+}
+.footer-icon:hover{
+  color: whitesmoke;
+}
+.copyright p{
+  color: rgb(112 110 110);
+}
+/* ----------footer section end----------  */
